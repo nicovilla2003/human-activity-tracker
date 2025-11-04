@@ -1,0 +1,40 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env/
+venv/
+.envrc
+.Python
+*.pkl
+*.joblib
+
+# === IDE / OS ===
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# === Notebooks ===
+.ipynb_checkpoints/
+
+# === Data ===
+data/raw/
+data/interim/
+data/processed/
+!data/README.md
+
+# === Reports ===
+reports/figures/
+!reports/README.md
+
+# === Models ===
+models/
+!models/README.md
+
+# === Misc ===
+*.log
+
+# Ignore all video files
+*.mp4
