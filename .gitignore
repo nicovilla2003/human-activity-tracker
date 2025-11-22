@@ -38,3 +38,6 @@ models/
 
 # Ignore all video files
 *.mp4
+
+# No subir más material de la Entrega 2
+Entrega 2/
